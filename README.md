@@ -1,11 +1,11 @@
 # PDF to Markdown API — recipes for RAG, LLMs and AI agents
 
-Convert any public PDF URL into **clean Markdown** (headings, paragraphs, detected tables), plain text or per-page JSON
-with one HTTP call — no servers, no Python PDF libraries to install, pay only per page converted.
+Convert public **text-layer** PDF URLs into Markdown (headings, paragraphs, heuristic tables), plain text or per-page
+JSON with one HTTP call — no servers or PDF libraries to install. Billed per processed page; scanned pages are not OCR'd.
 
 These recipes use the hosted **[PDF to Markdown, Text & Tables Extractor](https://apify.com/gunpark/pdf-to-markdown-extractor?utm_source=github&utm_medium=repo&utm_campaign=a1)**
-on Apify (maintained by the author of this repo). New Apify accounts get free monthly credit, enough to convert
-hundreds of pages before paying anything.
+on Apify (maintained by the author of this repo). Apify's Free plan includes $5 of monthly usage credit; how many
+conversions that covers depends on your remaining credit and the run charges.
 
 - Markdown output with `#` headings and GitHub-style tables, ready for chunking
 - Page ranges (`"1-5,9"`) and a max-pages limit to control cost
@@ -90,8 +90,8 @@ Add the Apify MCP server to Claude Desktop, Cursor or VS Code and ask:
 
 ## Pricing
 
-Pay per converted page (see the [pricing tab](https://apify.com/gunpark/pdf-to-markdown-extractor/pricing?utm_source=github&utm_medium=repo&utm_campaign=a1)).
-Failed documents are not charged. Set "Max total charge" on a run to cap spend.
+Pay per processed page, including blank or scanned pages (see the [pricing tab](https://apify.com/gunpark/pdf-to-markdown-extractor/pricing?utm_source=github&utm_medium=repo&utm_campaign=a1)).
+Download or parsing failures produce no page charge. Set "Max total charge" on a run to cap spend.
 
 ## Also useful: bulk image conversion
 
