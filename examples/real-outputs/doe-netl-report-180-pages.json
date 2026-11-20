@@ -1,0 +1,50 @@
+{
+ "url": "https://www.netl.doe.gov/sites/default/files/netl-file/nt0006553-semi-annual-report-6-30-12.pdf",
+ "title": "Microsoft Word - Q2 2012 DOE Report 26 July 12.doc",
+ "pageCount": 180,
+ "processedPageCount": 180,
+ "billablePageCount": 179,
+ "emptyPages": [
+  180
+ ],
+ "failedPages": [],
+ "truncatedByPageLimit": false,
+ "warnings": [
+  "Page 180 has no extractable text (blank or scanned image; OCR is not enabled); not charged."
+ ],
+ "tablesDetected": 85,
+ "tablesSample": [
+  {
+   "pageNumber": 16,
+   "rows": [
+    [
+     "1600",
+     "0.900"
+    ],
+    [
+     "1400",
+     "0.800"
+    ]
+   ]
+  },
+  {
+   "pageNumber": 29,
+   "rows": [
+    [
+     "1.17",
+     "2,224.46",
+     "1.17 DB-6 Lock, 3.687” min ID DB Nipple",
+     "1",
+     "20"
+    ],
+    [
+     "1.98",
+     "2,225.63",
+     "0.81 Upper Cross-Over",
+     "2",
+     "10"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "url": "https://www.fec.gov/files/legal/adrs/772/16190302344.pdf",
+ "title": "",
+ "pageCount": 68,
+ "processedPageCount": 68,
+ "billablePageCount": 52,
+ "emptyPages": [
+  11,
+  16,
+  18,
+  21,
+  27,
+  29,
+  31,
+  36,
+  37,
+  38,
+  52,
+  53,
+  54,
+  55,
+  60,
+  64
+ ],
+ "failedPages": [],
+ "truncatedByPageLimit": false,
+ "warnings": [
+  "Page 37 has no extractable text (blank or scanned image; OCR is not enabled); not charged.",
+  "Page 38 has no extractable text (blank or scanned image; OCR is not enabled); not charged.",
+  "Page 52 has no extractable text (blank or scanned image; OCR is not enabled); not charged.",
+  "Page 53 has no extractable text (blank or scanned image; OCR is not enabled); not charged.",
+  "Page 54 has no extractable text (blank or scanned image; OCR is not enabled); not charged."
+ ],
+ "tablesDetected": 32,
+ "tablesSample": [
+  {
+   "pageNumber": 3,
+   "rows": [
+    [
+     "10.",
+     "Lisa Lisker is the Treasurer of Newt 2012, Inc."
+    ],
+    [
+     "11.",
+     "Gingrich Productions, Inc. is a Georgia for-profit corporation that sells books"
+    ]
+   ]
+  },
+  {
+   "pageNumber": 12,
+   "rows": [
+    [
+     "• April20",
+     "• August 20",
+     "• December 20"
+    ],
+    [
+     "• May20",
+     "Q September 20",
+     "Q January 31"
+    ]
+   ]
+  }
+ ]
+}

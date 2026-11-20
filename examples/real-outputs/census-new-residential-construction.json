@@ -1,0 +1,40 @@
+{
+ "url": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf",
+ "title": "Microsoft Word - newresconst_auto_text_202610.docx",
+ "pageCount": 7,
+ "processedPageCount": 7,
+ "billablePageCount": 7,
+ "emptyPages": [],
+ "failedPages": [],
+ "truncatedByPageLimit": false,
+ "warnings": [],
+ "tablesDetected": 31,
+ "tablesSample": [
+  {
+   "pageNumber": 1,
+   "rows": [
+    [
+     "301-763-5160",
+     "301-763-3030"
+    ],
+    [
+     "eid.rcb.customer.service@census.gov",
+     "pio@census.gov"
+    ]
+   ]
+  },
+  {
+   "pageNumber": 2,
+   "rows": [
+    [
+     "301-763-5160",
+     "301-763-3030"
+    ],
+    [
+     "eid.rcb.customer.service@census.gov",
+     "pio@census.gov"
+    ]
+   ]
+  }
+ ]
+}
