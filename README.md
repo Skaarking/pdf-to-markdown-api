@@ -89,10 +89,25 @@ chunks with source/page metadata — paste the output into LangChain, LlamaIndex
 python examples/rag_chunks.py https://arxiv.org/pdf/1706.03762 > chunks.jsonl
 ```
 
-## 6. AI agents (MCP)
+## 6. AI agents (MCP): PDF and image text extraction as agent tools
 
-Add the Apify MCP server to Claude Desktop, Cursor or VS Code and ask:
-*"Use gunpark/pdf-to-markdown-extractor to convert https://example.com/report.pdf to Markdown and summarize section 3."*
+Both tools are available to MCP clients (Claude Desktop, Cursor, VS Code, etc.) through Apify's hosted MCP server.
+Each user signs in with their own Apify account (OAuth) or an Apify API token; usage is billed to that account
+(flat $0.003 per PDF with text, $0.003 per image with text; failed and empty inputs are free).
+
+```json
+{
+  "mcpServers": {
+    "pdf-and-image-to-text": {
+      "url": "https://mcp.apify.com/?tools=gunpark/pdf-to-markdown-extractor,gunpark/bulk-image-ocr"
+    }
+  }
+}
+```
+
+Then ask your agent, for example: *"Convert https://arxiv.org/pdf/1706.03762 to Markdown and list the section headings"*
+or *"Read the text in these receipt images"*. Text-layer PDFs only (scanned PDFs are not OCR'd); OCR supports
+English and Spanish images.
 
 ## Input reference
 
